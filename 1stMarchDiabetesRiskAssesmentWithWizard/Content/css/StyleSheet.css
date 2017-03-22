@@ -1,0 +1,75 @@
+﻿body {
+    background:none;
+}
+
+
+.center {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding:14px 40px;
+  font-size: 34px;
+  font-family:Arial;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+    text-decoration:none;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.headerStart { color: #ffffff;
+     font-family: 'Raleway',sans-serif; 
+     font-size: 62px; 
+     font-weight: 800; 
+     line-height: 72px; 
+     margin: 0 0 24px; 
+     text-align: center; 
+     text-transform: uppercase; 
+     /*text-shadow: 2px 2px darkgrey !important;*/
+     text-shadow: 5px 5px 5px #5f5b5b !important;
+}
+
+h1{
+     font-family: 'Raleway',sans-serif; 
+     font-size: 30px; 
+     font-weight: 800; 
+     line-height: 72px; 
+     margin: 0 0 24px; 
+     text-align: center; 
+     }
+
+.wizard {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+
+html {
+    /*background: url('Content/images/doctor.jpg') no-repeat center center fixed;*/
+    background: url('../images/doctor.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+

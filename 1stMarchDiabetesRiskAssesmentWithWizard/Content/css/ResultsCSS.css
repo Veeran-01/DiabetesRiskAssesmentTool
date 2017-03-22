@@ -1,0 +1,92 @@
+﻿
+
+
+.container{
+    vertical-align:middle;
+}
+
+.highResult{
+    background-color: rgba(255, 160, 122, 0.62);
+    border-color:red;
+    margin-top:50px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.increasedResult{
+    background-color:rgba(173, 216, 230, 0.81);
+    border-color:red;
+    margin-top:50px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.moderateResult{
+    background-color:rgba(238, 232, 170, 0.75);
+    border-color:red;
+    margin-top:50px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lowResult{
+    background-color:rgba(152, 251, 152, 0.7);
+    border-color:red;
+    margin-top:50px;
+    border-radius: 10px 10px 10px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.BMI{
+      /*background-image: url('../images/teal-885329_1280.png');*/
+    background-image: url('../images/One.png');
+    background-size: contain;
+    /*background: url("Content/doctor.jpg") no-repeat center center fixed;*/
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+
+
+.button {
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px rgba(157, 157, 157, 0.65);
+    padding: 4px;
+}
+
+.button:hover {
+    background-color: #3e8e41;
+    text-decoration:none;
+               
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.container {
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.22);
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+
